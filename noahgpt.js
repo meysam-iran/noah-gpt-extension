@@ -35,7 +35,16 @@ blocks.push({
 });
 Extension.prototype["noahgpt_Block_prompt-noahgpt"] = function(args, util) {
   const localVars = {};
-    return ;
+    return Scratch.fetch(api_url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+	  'Origin': 'https://gptcall.net/chat#id=&contactName=noah-gpt&chatID=%222024-01-22T15%3A48%3A10.329Z%22',
+	  'Referer': 'https://gptcall.net/'
+        },
+        body: JSON.stringify({
+          model: "gpt-3.5-turbo",
+          messages: [{ role: "user", content: [input] }];
 };
 
 
