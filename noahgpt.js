@@ -50,4 +50,4 @@ Extension.prototype["noahgpt_Block_prompt-noahgpt"] = function(args, util) {
 
 
   Scratch.extensions.register(new Extension());
-})(Scratch);
+})(Scratch);}
