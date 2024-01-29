@@ -5,7 +5,7 @@
   const blocks = [];
   const vars = {};
   const menus = {};
-
+const key = https://c.ai/c/SuGJTIu7niq55uscGvNj0-TJCleEsB2vNDgH_tsh7b4
   
 
   class Extension {
@@ -34,17 +34,18 @@ blocks.push({
   disableMonitor: false
 });
 Extension.prototype["noahgpt_Block_prompt-noahgpt"] = function(args, util) {
+	const input = args.input
   const localVars = {};
-    return Scratch.fetch(api_url, {
+    return Scratch.fetch(key, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-	  'Origin': 'https://gptcall.net/chat#id=&contactName=noah-gpt&chatID=%222024-01-22T15%3A48%3A10.329Z%22',
-	  'Referer': 'https://gptcall.net/'
+	  'Origin': https://c.ai/c/SuGJTIu7niq55uscGvNj0-TJCleEsB2vNDgH_tsh7b4'',
+	  'Referer': 'https://c.ai/c/SuGJTIu7niq55uscGvNj0-TJCleEsB2vNDgH_tsh7b4'
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
-          messages: [{ role: "user", content: [input] }];
+          messages: [{ role: "user", content: input }];
 };
 
 
