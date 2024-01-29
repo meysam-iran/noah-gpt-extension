@@ -40,7 +40,7 @@ Extension.prototype["noahgpt_Block_prompt-noahgpt"] = function(args, util) {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-	  'Origin': https://c.ai/c/SuGJTIu7niq55uscGvNj0-TJCleEsB2vNDgH_tsh7b4'',
+	  'Origin': 'https://c.ai/c/SuGJTIu7niq55uscGvNj0-TJCleEsB2vNDgH_tsh7b4',
 	  'Referer': 'https://c.ai/c/SuGJTIu7niq55uscGvNj0-TJCleEsB2vNDgH_tsh7b4'
         },
         body: JSON.stringify({
