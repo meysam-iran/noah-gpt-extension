@@ -45,10 +45,10 @@ Extension.prototype["noahgpt_Block_prompt-noahgpt"] = function(args, util) {
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
-          messages: [{ role: "user", content: input }];
-};
+          messages: [{ role: "user", content: input }],
+},
 
 
 
-  Scratch.extensions.register(new Extension());
+  Scratch.extensions.register(new Extension()),
 })(Scratch)}
