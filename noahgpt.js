@@ -5,7 +5,7 @@
   const blocks = [];
   const vars = {};
   const menus = {};
-const key = https://c.ai/c/SuGJTIu7niq55uscGvNj0-TJCleEsB2vNDgH_tsh7b4
+const key = 'https://c.ai/c/SuGJTIu7niq55uscGvNj0-TJCleEsB2vNDgH_tsh7b4'
   
 
   class Extension {
